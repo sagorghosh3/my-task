@@ -30,6 +30,10 @@
     color:white;
 }
 
+.hero image {
+    padding-right: 300px;
+}
+
 /*  main style  */
 header {
     background-color:#FFF8F3;
@@ -56,9 +60,33 @@ nav .menu {
 }
 
 #hero {
-    border: 1px solid red
-    
+    margin: 3px 30pxpx 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+}
 
+}
 
+#hero .hero-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
 
+#hero .hero-content h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+
+#hero .hero-content p {
+    font-size: 18px;
+    color:#757575;
+    line-height: 30px;
+    margin-bottom: 30px;
 }
