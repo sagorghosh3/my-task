@@ -49,6 +49,9 @@
     background-color: #757575;
 }
 
+.text-center {
+    text-align: center;
+}
 
 
 /* .hero image {
@@ -63,6 +66,7 @@ header {
     background-position: top left, bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
+    background-size: auto 90%, auto;
 }
 
 nav {
@@ -127,7 +131,7 @@ nav .menu a {
     vertical-align: middle;
 }
 
-#about {
+#about, #skills, #resume {
     padding-top: 130px;
 }
 
@@ -155,14 +159,11 @@ nav .menu a {
 .about-info .info-card h4 {
     font-size: 20px;
 }
-#skills {
-    padding-top: 130px;
 
-}
-#skill .skill-container {
+#skills .skill-container {
     width: 71%;
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 #skills .skill-container .skill-box {
     display: flex;
@@ -170,11 +171,11 @@ nav .menu a {
 }
 .skill-box .skill-card {
     padding: 30px;
-    box-shadow: 0 6px 50px 0 #7f323200 ;
+    box-shadow: 0 6px 50px 0 #7f323220 ;
     max-width: 267px;
-
-    
+    /* border: 1px solid red; */
 }
+
 .skill-card img {
     max-width: 44px;
     margin-bottom: 30px;
@@ -187,7 +188,96 @@ nav .menu a {
 }
 
 .skill-card p {
- font-size: 16px;
+    font-size: 16px;
     color:#757575;
     line-height: 28px;   
 }
+#resume .resume-container {
+    width: 74%;
+    max-width: 0, auto;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+
+.resume-container hr {
+    margin: 30PX 0;
+
+}
+
+.resume-container .section-title {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+} 
+
+.resume-card {
+    max-width: 0 , auto;
+    margin-right: 47px;
+}
+
+.resume-card .card-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+.resume-card .card-info {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.resume-card .card-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .footer-container {
+    width: 74%;
+    max-width: 0, auto;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer-container h2 {
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container .social {
+    max-width: 562px;
+}
+
+.footer-container .social .p {
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer-container .icon a {
+    margin-right: 24px;
+}
+
+/* new style learning */ 
+
+.footer-container form input[type="text"], .footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+
+
+    color: #757575;
+}
+
